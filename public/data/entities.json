@@ -1,0 +1,4690 @@
+{
+ "blocs": {
+  "EU": {
+   "name": "European Union",
+   "fom": true,
+   "members": [
+    "AUT",
+    "BEL",
+    "BGR",
+    "HRV",
+    "CYP",
+    "CZE",
+    "DNK",
+    "EST",
+    "FIN",
+    "FRA",
+    "DEU",
+    "GRC",
+    "HUN",
+    "IRL",
+    "ITA",
+    "LVA",
+    "LTU",
+    "LUX",
+    "MLT",
+    "NLD",
+    "POL",
+    "PRT",
+    "ROU",
+    "SVK",
+    "SVN",
+    "ESP",
+    "SWE"
+   ]
+  },
+  "EFTA": {
+   "name": "EFTA (EEA & Switzerland)",
+   "fom": true,
+   "members": [
+    "ISL",
+    "LIE",
+    "NOR",
+    "CHE"
+   ]
+  },
+  "EUEFTA": {
+   "name": "EU/EEA/Switzerland free movement area",
+   "fom": true,
+   "virtual": true,
+   "union": [
+    "EU",
+    "EFTA"
+   ]
+  },
+  "SCHENGEN": {
+   "name": "Schengen Area",
+   "fom": false,
+   "members": [
+    "AUT",
+    "BEL",
+    "BGR",
+    "HRV",
+    "CZE",
+    "DNK",
+    "EST",
+    "FIN",
+    "FRA",
+    "DEU",
+    "GRC",
+    "HUN",
+    "ISL",
+    "ITA",
+    "LVA",
+    "LIE",
+    "LTU",
+    "LUX",
+    "MLT",
+    "NLD",
+    "NOR",
+    "POL",
+    "PRT",
+    "ROU",
+    "SVK",
+    "SVN",
+    "ESP",
+    "SWE",
+    "CHE"
+   ]
+  },
+  "GCC": {
+   "name": "Gulf Cooperation Council",
+   "fom": true,
+   "members": [
+    "SAU",
+    "KWT",
+    "BHR",
+    "QAT",
+    "ARE",
+    "OMN"
+   ]
+  },
+  "CTA": {
+   "name": "Common Travel Area (UK–Ireland)",
+   "fom": true,
+   "members": [
+    "GBR",
+    "IRL"
+   ]
+  },
+  "TTTA": {
+   "name": "Trans-Tasman Travel Arrangement",
+   "fom": true,
+   "members": [
+    "AUS",
+    "NZL"
+   ]
+  },
+  "CA4": {
+   "name": "Central America Border Control Agreement (CA-4)",
+   "fom": true,
+   "members": [
+    "GTM",
+    "SLV",
+    "HND",
+    "NIC"
+   ]
+  },
+  "MERCOSUR": {
+   "name": "Mercosur Residence Agreement",
+   "fom": true,
+   "members": [
+    "ARG",
+    "BOL",
+    "BRA",
+    "CHL",
+    "COL",
+    "ECU",
+    "PRY",
+    "PER",
+    "URY"
+   ]
+  },
+  "ECOWAS": {
+   "name": "ECOWAS Free Movement",
+   "fom": true,
+   "members": [
+    "BEN",
+    "BFA",
+    "CPV",
+    "CIV",
+    "GMB",
+    "GHA",
+    "GIN",
+    "GNB",
+    "LBR",
+    "MLI",
+    "NER",
+    "NGA",
+    "SEN",
+    "SLE",
+    "TGO"
+   ]
+  },
+  "EAC": {
+   "name": "East African Community",
+   "fom": true,
+   "members": [
+    "BDI",
+    "KEN",
+    "RWA",
+    "SSD",
+    "TZA",
+    "UGA"
+   ]
+  }
+ },
+ "entities": [
+  {
+   "id": "ALB",
+   "name": "Albania",
+   "demonym": "Albanian",
+   "features": [
+    "Albania"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ALB",
+     "name": "Albania passport",
+     "visaPage": "Visa_requirements_for_Albanian_citizens",
+     "passportPage": "Albanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Albanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Albanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AND",
+   "name": "Andorra",
+   "demonym": "Andorran",
+   "features": [
+    "Andorra"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "AND",
+     "name": "Andorra passport",
+     "visaPage": "Visa_requirements_for_Andorran_citizens",
+     "passportPage": "Andorran_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Andorran_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Andorran_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AUT",
+   "name": "Austria",
+   "demonym": "Austrian",
+   "features": [
+    "Austria"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "AUT",
+     "name": "Austria passport",
+     "visaPage": "Visa_requirements_for_Austrian_citizens",
+     "passportPage": "Austrian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Austrian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Austrian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BLR",
+   "name": "Belarus",
+   "demonym": "Belarusian",
+   "features": [
+    "Belarus"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BLR",
+     "name": "Belarus passport",
+     "visaPage": "Visa_requirements_for_Belarusian_citizens",
+     "passportPage": "Belarusian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belarusian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Belarusian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BEL",
+   "name": "Belgium",
+   "demonym": "Belgian",
+   "features": [
+    "Belgium"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "BEL",
+     "name": "Belgium passport",
+     "visaPage": "Visa_requirements_for_Belgian_citizens",
+     "passportPage": "Belgian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Belgian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "demonym": "Bosnia and Herzegovina",
+   "features": [
+    "Bosnia and Herz."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BIH",
+     "name": "Bosnia and Herzegovina passport",
+     "visaPage": "Visa_requirements_for_Bosnia_and_Herzegovina_citizens",
+     "passportPage": "Bosnia_and_Herzegovina_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bosnia_and_Herzegovina_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BGR",
+   "name": "Bulgaria",
+   "demonym": "Bulgarian",
+   "features": [
+    "Bulgaria"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "BGR",
+     "name": "Bulgaria passport",
+     "visaPage": "Visa_requirements_for_Bulgarian_citizens",
+     "passportPage": "Bulgarian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bulgarian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bulgarian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "HRV",
+   "name": "Croatia",
+   "demonym": "Croatian",
+   "features": [
+    "Croatia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "HRV",
+     "name": "Croatia passport",
+     "visaPage": "Visa_requirements_for_Croatian_citizens",
+     "passportPage": "Croatian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Croatian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Croatian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CYP",
+   "name": "Cyprus",
+   "demonym": "Cypriot",
+   "features": [
+    "Cyprus"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU"
+   ],
+   "documents": [
+    {
+     "id": "CYP",
+     "name": "Cyprus passport",
+     "visaPage": "Visa_requirements_for_Cypriot_citizens",
+     "passportPage": "Cypriot_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Cypriot_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Cypriot_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CZE",
+   "name": "Czechia",
+   "demonym": "Czech",
+   "features": [
+    "Czechia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "CZE",
+     "name": "Czechia passport",
+     "visaPage": "Visa_requirements_for_Czech_citizens",
+     "passportPage": "Czech_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Czech_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Czech_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DNK",
+   "name": "Denmark",
+   "demonym": "Danish",
+   "features": [
+    "Denmark",
+    "Greenland",
+    "Faeroe Is."
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "DNK",
+     "name": "Denmark passport",
+     "visaPage": "Visa_requirements_for_Danish_citizens",
+     "passportPage": "Danish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Danish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Danish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "EST",
+   "name": "Estonia",
+   "demonym": "Estonian",
+   "features": [
+    "Estonia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "EST",
+     "name": "Estonia passport",
+     "visaPage": "Visa_requirements_for_Estonian_citizens",
+     "passportPage": "Estonian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Estonian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Estonian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "FIN",
+   "name": "Finland",
+   "demonym": "Finnish",
+   "features": [
+    "Finland",
+    "Åland"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "FIN",
+     "name": "Finland passport",
+     "visaPage": "Visa_requirements_for_Finnish_citizens",
+     "passportPage": "Finnish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Finnish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Finnish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "FRA",
+   "name": "France",
+   "demonym": "French",
+   "features": [
+    "France",
+    "Fr. Polynesia",
+    "New Caledonia",
+    "St. Pierre and Miquelon",
+    "Wallis and Futuna Is.",
+    "St-Martin",
+    "St-Barthélemy",
+    "Fr. S. Antarctic Lands"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "FRA",
+     "name": "France passport",
+     "visaPage": "Visa_requirements_for_French_citizens",
+     "passportPage": "French_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_French_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/French_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DEU",
+   "name": "Germany",
+   "demonym": "German",
+   "features": [
+    "Germany"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "DEU",
+     "name": "Germany passport",
+     "visaPage": "Visa_requirements_for_German_citizens",
+     "passportPage": "German_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_German_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/German_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GRC",
+   "name": "Greece",
+   "demonym": "Greek",
+   "features": [
+    "Greece"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "GRC",
+     "name": "Greece passport",
+     "visaPage": "Visa_requirements_for_Greek_citizens",
+     "passportPage": "Greek_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Greek_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Greek_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "HUN",
+   "name": "Hungary",
+   "demonym": "Hungarian",
+   "features": [
+    "Hungary"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "HUN",
+     "name": "Hungary passport",
+     "visaPage": "Visa_requirements_for_Hungarian_citizens",
+     "passportPage": "Hungarian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Hungarian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Hungarian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ISL",
+   "name": "Iceland",
+   "demonym": "Icelandic",
+   "features": [
+    "Iceland"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EFTA",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "ISL",
+     "name": "Iceland passport",
+     "visaPage": "Visa_requirements_for_Icelandic_citizens",
+     "passportPage": "Icelandic_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Icelandic_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Icelandic_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "IRL",
+   "name": "Ireland",
+   "demonym": "Irish",
+   "features": [
+    "Ireland"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "CTA"
+   ],
+   "documents": [
+    {
+     "id": "IRL",
+     "name": "Ireland passport",
+     "visaPage": "Visa_requirements_for_Irish_citizens",
+     "passportPage": "Irish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Irish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Irish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ITA",
+   "name": "Italy",
+   "demonym": "Italian",
+   "features": [
+    "Italy"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "ITA",
+     "name": "Italy passport",
+     "visaPage": "Visa_requirements_for_Italian_citizens",
+     "passportPage": "Italian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Italian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Italian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "XKX",
+   "name": "Kosovo",
+   "demonym": "Kosovan",
+   "features": [
+    "Kosovo"
+   ],
+   "recognition": "partial",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "XKX",
+     "name": "Kosovo passport",
+     "visaPage": "Visa_requirements_for_Kosovan_citizens",
+     "passportPage": "Kosovan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kosovan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kosovan_passport"
+    }
+   ],
+   "facts": [
+    "Kosovo declared independence in 2008 and is recognised by around 100 UN members; its passport is not accepted by several non-recognising states."
+   ]
+  },
+  {
+   "id": "LVA",
+   "name": "Latvia",
+   "demonym": "Latvian",
+   "features": [
+    "Latvia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "LVA",
+     "name": "Latvia passport",
+     "visaPage": "Visa_requirements_for_Latvian_citizens",
+     "passportPage": "Latvian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Latvian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Latvian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LIE",
+   "name": "Liechtenstein",
+   "demonym": "Liechtenstein",
+   "features": [
+    "Liechtenstein"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EFTA",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "LIE",
+     "name": "Liechtenstein passport",
+     "visaPage": "Visa_requirements_for_Liechtenstein_citizens",
+     "passportPage": "Liechtenstein_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Liechtenstein_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Liechtenstein_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LTU",
+   "name": "Lithuania",
+   "demonym": "Lithuanian",
+   "features": [
+    "Lithuania"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "LTU",
+     "name": "Lithuania passport",
+     "visaPage": "Visa_requirements_for_Lithuanian_citizens",
+     "passportPage": "Lithuanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Lithuanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Lithuanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LUX",
+   "name": "Luxembourg",
+   "demonym": "Luxembourgish",
+   "features": [
+    "Luxembourg"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "LUX",
+     "name": "Luxembourg passport",
+     "visaPage": "Visa_requirements_for_Luxembourgish_citizens",
+     "passportPage": "Luxembourgish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Luxembourgish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Luxembourgish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MLT",
+   "name": "Malta",
+   "demonym": "Maltese",
+   "features": [
+    "Malta"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "MLT",
+     "name": "Malta passport",
+     "visaPage": "Visa_requirements_for_Maltese_citizens",
+     "passportPage": "Maltese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Maltese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Maltese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MDA",
+   "name": "Moldova",
+   "demonym": "Moldovan",
+   "features": [
+    "Moldova"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MDA",
+     "name": "Moldova passport",
+     "visaPage": "Visa_requirements_for_Moldovan_citizens",
+     "passportPage": "Moldovan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Moldovan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Moldovan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MCO",
+   "name": "Monaco",
+   "demonym": "Monégasque",
+   "features": [
+    "Monaco"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MCO",
+     "name": "Monaco passport",
+     "visaPage": "Visa_requirements_for_Mon%C3%A9gasque_citizens",
+     "passportPage": "Monegasque_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mon%C3%A9gasque_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Monegasque_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MNE",
+   "name": "Montenegro",
+   "demonym": "Montenegrin",
+   "features": [
+    "Montenegro"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MNE",
+     "name": "Montenegro passport",
+     "visaPage": "Visa_requirements_for_Montenegrin_citizens",
+     "passportPage": "Montenegrin_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Montenegrin_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Montenegrin_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NLD",
+   "name": "Netherlands",
+   "demonym": "Dutch",
+   "features": [
+    "Netherlands",
+    "Aruba",
+    "Curaçao",
+    "Sint Maarten"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "NLD",
+     "name": "Netherlands passport",
+     "visaPage": "Visa_requirements_for_Dutch_citizens",
+     "passportPage": "Dutch_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Dutch_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Dutch_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MKD",
+   "name": "North Macedonia",
+   "demonym": "Macedonian",
+   "features": [
+    "Macedonia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MKD",
+     "name": "North Macedonia passport",
+     "visaPage": "Visa_requirements_for_North_Macedonian_citizens",
+     "passportPage": "North_Macedonian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_North_Macedonian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/North_Macedonian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NOR",
+   "name": "Norway",
+   "demonym": "Norwegian",
+   "features": [
+    "Norway"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EFTA",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "NOR",
+     "name": "Norway passport",
+     "visaPage": "Visa_requirements_for_Norwegian_citizens",
+     "passportPage": "Norwegian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Norwegian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Norwegian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "POL",
+   "name": "Poland",
+   "demonym": "Polish",
+   "features": [
+    "Poland"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "POL",
+     "name": "Poland passport",
+     "visaPage": "Visa_requirements_for_Polish_citizens",
+     "passportPage": "Polish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Polish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Polish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PRT",
+   "name": "Portugal",
+   "demonym": "Portuguese",
+   "features": [
+    "Portugal"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "PRT",
+     "name": "Portugal passport",
+     "visaPage": "Visa_requirements_for_Portuguese_citizens",
+     "passportPage": "Portuguese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Portuguese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Portuguese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ROU",
+   "name": "Romania",
+   "demonym": "Romanian",
+   "features": [
+    "Romania"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "ROU",
+     "name": "Romania passport",
+     "visaPage": "Visa_requirements_for_Romanian_citizens",
+     "passportPage": "Romanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Romanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Romanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "RUS",
+   "name": "Russia",
+   "demonym": "Russian",
+   "features": [
+    "Russia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "RUS",
+     "name": "Russia passport",
+     "visaPage": "Visa_requirements_for_Russian_citizens",
+     "passportPage": "Russian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Russian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Russian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SMR",
+   "name": "San Marino",
+   "demonym": "Sammarinese",
+   "features": [
+    "San Marino"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SMR",
+     "name": "San Marino passport",
+     "visaPage": "Visa_requirements_for_Sammarinese_citizens",
+     "passportPage": "San_Marino_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sammarinese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/San_Marino_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SRB",
+   "name": "Serbia",
+   "demonym": "Serbian",
+   "features": [
+    "Serbia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SRB",
+     "name": "Serbia passport",
+     "visaPage": "Visa_requirements_for_Serbian_citizens",
+     "passportPage": "Serbian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Serbian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Serbian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SVK",
+   "name": "Slovakia",
+   "demonym": "Slovak",
+   "features": [
+    "Slovakia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "SVK",
+     "name": "Slovakia passport",
+     "visaPage": "Visa_requirements_for_Slovak_citizens",
+     "passportPage": "Slovak_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Slovak_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Slovak_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SVN",
+   "name": "Slovenia",
+   "demonym": "Slovenian",
+   "features": [
+    "Slovenia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "SVN",
+     "name": "Slovenia passport",
+     "visaPage": "Visa_requirements_for_Slovenian_citizens",
+     "passportPage": "Slovenian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Slovenian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Slovenian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ESP",
+   "name": "Spain",
+   "demonym": "Spanish",
+   "features": [
+    "Spain"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "ESP",
+     "name": "Spain passport",
+     "visaPage": "Visa_requirements_for_Spanish_citizens",
+     "passportPage": "Spanish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Spanish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Spanish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SWE",
+   "name": "Sweden",
+   "demonym": "Swedish",
+   "features": [
+    "Sweden"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EU",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "SWE",
+     "name": "Sweden passport",
+     "visaPage": "Visa_requirements_for_Swedish_citizens",
+     "passportPage": "Swedish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Swedish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Swedish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CHE",
+   "name": "Switzerland",
+   "demonym": "Swiss",
+   "features": [
+    "Switzerland"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EFTA",
+    "SCHENGEN"
+   ],
+   "documents": [
+    {
+     "id": "CHE",
+     "name": "Switzerland passport",
+     "visaPage": "Visa_requirements_for_Swiss_citizens",
+     "passportPage": "Swiss_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Swiss_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Swiss_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "UKR",
+   "name": "Ukraine",
+   "demonym": "Ukrainian",
+   "features": [
+    "Ukraine"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "UKR",
+     "name": "Ukraine passport",
+     "visaPage": "Visa_requirements_for_Ukrainian_citizens",
+     "passportPage": "Ukrainian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ukrainian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ukrainian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GBR",
+   "name": "United Kingdom",
+   "demonym": "British",
+   "features": [
+    "United Kingdom",
+    "Jersey",
+    "Guernsey",
+    "Isle of Man",
+    "Bermuda",
+    "Cayman Is.",
+    "British Virgin Is.",
+    "Turks and Caicos Is.",
+    "Montserrat",
+    "Anguilla",
+    "Falkland Is.",
+    "Saint Helena",
+    "Pitcairn Is.",
+    "S. Geo. and the Is.",
+    "Br. Indian Ocean Ter."
+   ],
+   "recognition": "full",
+   "blocs": [
+    "CTA"
+   ],
+   "documents": [
+    {
+     "id": "GBR",
+     "name": "United Kingdom passport",
+     "visaPage": "Visa_requirements_for_British_citizens",
+     "passportPage": "British_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/British_passport"
+    }
+   ],
+   "facts": [
+    "The UK issues several classes of passport beyond the ordinary British citizen passport, including British Overseas Territories citizen and British National (Overseas) passports."
+   ]
+  },
+  {
+   "id": "VAT",
+   "name": "Vatican City",
+   "demonym": "Vatican",
+   "features": [
+    "Vatican"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "VAT",
+     "name": "Vatican City passport",
+     "visaPage": "Visa_requirements_for_Vatican_citizens",
+     "passportPage": "Vatican_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Vatican_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Vatican_passport"
+    }
+   ],
+   "facts": [
+    "The Holy See issues diplomatic and service passports; Vatican City issues ordinary passports to its few hundred citizens."
+   ]
+  },
+  {
+   "id": "ARM",
+   "name": "Armenia",
+   "demonym": "Armenian",
+   "features": [
+    "Armenia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ARM",
+     "name": "Armenia passport",
+     "visaPage": "Visa_requirements_for_Armenian_citizens",
+     "passportPage": "Armenian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Armenian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Armenian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AZE",
+   "name": "Azerbaijan",
+   "demonym": "Azerbaijani",
+   "features": [
+    "Azerbaijan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "AZE",
+     "name": "Azerbaijan passport",
+     "visaPage": "Visa_requirements_for_Azerbaijani_citizens",
+     "passportPage": "Azerbaijani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Azerbaijani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Azerbaijani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BHR",
+   "name": "Bahrain",
+   "demonym": "Bahraini",
+   "features": [
+    "Bahrain"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "BHR",
+     "name": "Bahrain passport",
+     "visaPage": "Visa_requirements_for_Bahraini_citizens",
+     "passportPage": "Bahraini_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bahraini_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bahraini_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "IRN",
+   "name": "Iran",
+   "demonym": "Iranian",
+   "features": [
+    "Iran"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "IRN",
+     "name": "Iran passport",
+     "visaPage": "Visa_requirements_for_Iranian_citizens",
+     "passportPage": "Iranian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Iranian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Iranian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "IRQ",
+   "name": "Iraq",
+   "demonym": "Iraqi",
+   "features": [
+    "Iraq"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "IRQ",
+     "name": "Iraq passport",
+     "visaPage": "Visa_requirements_for_Iraqi_citizens",
+     "passportPage": "Iraqi_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Iraqi_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Iraqi_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ISR",
+   "name": "Israel",
+   "demonym": "Israeli",
+   "features": [
+    "Israel"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ISR-darkon",
+     "name": "Israeli passport (Darkon)",
+     "visaPage": "Visa_requirements_for_Israeli_citizens",
+     "passportPage": "Israeli_passport",
+     "note": "Regular national passport.",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Israeli_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Israeli_passport"
+    },
+    {
+     "id": "ISR-teudat-maavar",
+     "name": "Teudat Ma'avar (travel document)",
+     "visaPage": "Visa_requirements_for_Israeli_citizens",
+     "passportPage": "Israeli_laissez-passer",
+     "note": "Israeli travel document (laissez-passer) issued in lieu of a passport; carries weaker visa privileges than the Darkon.",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Israeli_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Israeli_laissez-passer"
+    }
+   ],
+   "facts": [
+    "Israel issues two travel documents with different visa privileges: the regular Darkon and the Teudat Ma'avar laissez-passer.",
+    "Several states do not accept Israeli travel documents at all and bar entry to their holders."
+   ]
+  },
+  {
+   "id": "JOR",
+   "name": "Jordan",
+   "demonym": "Jordanian",
+   "features": [
+    "Jordan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "JOR",
+     "name": "Jordan passport",
+     "visaPage": "Visa_requirements_for_Jordanian_citizens",
+     "passportPage": "Jordanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Jordanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Jordanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KWT",
+   "name": "Kuwait",
+   "demonym": "Kuwaiti",
+   "features": [
+    "Kuwait"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "KWT",
+     "name": "Kuwait passport",
+     "visaPage": "Visa_requirements_for_Kuwaiti_citizens",
+     "passportPage": "Kuwaiti_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kuwaiti_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kuwaiti_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LBN",
+   "name": "Lebanon",
+   "demonym": "Lebanese",
+   "features": [
+    "Lebanon"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LBN",
+     "name": "Lebanon passport",
+     "visaPage": "Visa_requirements_for_Lebanese_citizens",
+     "passportPage": "Lebanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Lebanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Lebanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "OMN",
+   "name": "Oman",
+   "demonym": "Omani",
+   "features": [
+    "Oman"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "OMN",
+     "name": "Oman passport",
+     "visaPage": "Visa_requirements_for_Omani_citizens",
+     "passportPage": "Omani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Omani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Omani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PSE",
+   "name": "Palestine",
+   "demonym": "Palestinian",
+   "features": [
+    "Palestine"
+   ],
+   "recognition": "partial",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PSE",
+     "name": "Palestine passport",
+     "visaPage": "Visa_requirements_for_Palestinian_citizens",
+     "passportPage": "Palestinian_Authority_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Palestinian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Palestinian_Authority_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "QAT",
+   "name": "Qatar",
+   "demonym": "Qatari",
+   "features": [
+    "Qatar"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "QAT",
+     "name": "Qatar passport",
+     "visaPage": "Visa_requirements_for_Qatari_citizens",
+     "passportPage": "Qatari_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Qatari_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Qatari_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SAU",
+   "name": "Saudi Arabia",
+   "demonym": "Saudi",
+   "features": [
+    "Saudi Arabia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "SAU",
+     "name": "Saudi Arabia passport",
+     "visaPage": "Visa_requirements_for_Saudi_citizens",
+     "passportPage": "Saudi_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Saudi_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Saudi_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SYR",
+   "name": "Syria",
+   "demonym": "Syrian",
+   "features": [
+    "Syria"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SYR",
+     "name": "Syria passport",
+     "visaPage": "Visa_requirements_for_Syrian_citizens",
+     "passportPage": "Syrian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Syrian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Syrian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TUR",
+   "name": "Turkey",
+   "demonym": "Turkish",
+   "features": [
+    "Turkey"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TUR",
+     "name": "Turkey passport",
+     "visaPage": "Visa_requirements_for_Turkish_citizens",
+     "passportPage": "Turkish_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Turkish_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Turkish_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ARE",
+   "name": "United Arab Emirates",
+   "demonym": "Emirati",
+   "features": [
+    "United Arab Emirates"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "GCC"
+   ],
+   "documents": [
+    {
+     "id": "ARE",
+     "name": "United Arab Emirates passport",
+     "visaPage": "Visa_requirements_for_Emirati_citizens",
+     "passportPage": "Emirati_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Emirati_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Emirati_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "YEM",
+   "name": "Yemen",
+   "demonym": "Yemeni",
+   "features": [
+    "Yemen"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "YEM",
+     "name": "Yemen passport",
+     "visaPage": "Visa_requirements_for_Yemeni_citizens",
+     "passportPage": "Yemeni_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Yemeni_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Yemeni_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DZA",
+   "name": "Algeria",
+   "demonym": "Algerian",
+   "features": [
+    "Algeria"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "DZA",
+     "name": "Algeria passport",
+     "visaPage": "Visa_requirements_for_Algerian_citizens",
+     "passportPage": "Algerian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Algerian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Algerian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AGO",
+   "name": "Angola",
+   "demonym": "Angolan",
+   "features": [
+    "Angola"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "AGO",
+     "name": "Angola passport",
+     "visaPage": "Visa_requirements_for_Angolan_citizens",
+     "passportPage": "Angolan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Angolan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Angolan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BEN",
+   "name": "Benin",
+   "demonym": "Beninese",
+   "features": [
+    "Benin"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "BEN",
+     "name": "Benin passport",
+     "visaPage": "Visa_requirements_for_Beninese_citizens",
+     "passportPage": "Beninese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Beninese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Beninese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BWA",
+   "name": "Botswana",
+   "demonym": "Botswana",
+   "features": [
+    "Botswana"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BWA",
+     "name": "Botswana passport",
+     "visaPage": "Visa_requirements_for_Botswana_citizens",
+     "passportPage": "Botswana_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Botswana_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Botswana_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BFA",
+   "name": "Burkina Faso",
+   "demonym": "Burkinabé",
+   "features": [
+    "Burkina Faso"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "BFA",
+     "name": "Burkina Faso passport",
+     "visaPage": "Visa_requirements_for_Burkinab%C3%A9_citizens",
+     "passportPage": "Burkinab%C3%A9_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Burkinab%C3%A9_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Burkinab%C3%A9_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BDI",
+   "name": "Burundi",
+   "demonym": "Burundian",
+   "features": [
+    "Burundi"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "BDI",
+     "name": "Burundi passport",
+     "visaPage": "Visa_requirements_for_Burundian_citizens",
+     "passportPage": "Burundian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Burundian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Burundian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CPV",
+   "name": "Cabo Verde",
+   "demonym": "Cape Verdean",
+   "features": [
+    "Cabo Verde"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "CPV",
+     "name": "Cabo Verde passport",
+     "visaPage": "Visa_requirements_for_Cape_Verdean_citizens",
+     "passportPage": "Cape_Verdean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Cape_Verdean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Cape_Verdean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CMR",
+   "name": "Cameroon",
+   "demonym": "Cameroonian",
+   "features": [
+    "Cameroon"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CMR",
+     "name": "Cameroon passport",
+     "visaPage": "Visa_requirements_for_Cameroonian_citizens",
+     "passportPage": "Cameroonian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Cameroonian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Cameroonian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CAF",
+   "name": "Central African Republic",
+   "demonym": "Central African",
+   "features": [
+    "Central African Rep."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CAF",
+     "name": "Central African Republic passport",
+     "visaPage": "Visa_requirements_for_Central_African_citizens",
+     "passportPage": "Central_African_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Central_African_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Central_African_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TCD",
+   "name": "Chad",
+   "demonym": "Chadian",
+   "features": [
+    "Chad"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TCD",
+     "name": "Chad passport",
+     "visaPage": "Visa_requirements_for_Chadian_citizens",
+     "passportPage": "Chadian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Chadian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Chadian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "COM",
+   "name": "Comoros",
+   "demonym": "Comorian",
+   "features": [
+    "Comoros"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "COM",
+     "name": "Comoros passport",
+     "visaPage": "Visa_requirements_for_Comorian_citizens",
+     "passportPage": "Comorian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Comorian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Comorian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "COG",
+   "name": "Congo (Republic)",
+   "demonym": "Republic of the Congo",
+   "features": [
+    "Congo"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "COG",
+     "name": "Congo (Republic) passport",
+     "visaPage": "Visa_requirements_for_Republic_of_the_Congo_citizens",
+     "passportPage": "Republic_of_the_Congo_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Republic_of_the_Congo_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Republic_of_the_Congo_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "COD",
+   "name": "Congo (DRC)",
+   "demonym": "Democratic Republic of the Congo",
+   "features": [
+    "Dem. Rep. Congo"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "COD",
+     "name": "Congo (DRC) passport",
+     "visaPage": "Visa_requirements_for_Democratic_Republic_of_the_Congo_citizens",
+     "passportPage": "Democratic_Republic_of_the_Congo_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Democratic_Republic_of_the_Congo_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CIV",
+   "name": "Côte d'Ivoire",
+   "demonym": "Ivorian",
+   "features": [
+    "Côte d'Ivoire"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "CIV",
+     "name": "Côte d'Ivoire passport",
+     "visaPage": "Visa_requirements_for_Ivorian_citizens",
+     "passportPage": "Ivorian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ivorian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ivorian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DJI",
+   "name": "Djibouti",
+   "demonym": "Djiboutian",
+   "features": [
+    "Djibouti"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "DJI",
+     "name": "Djibouti passport",
+     "visaPage": "Visa_requirements_for_Djiboutian_citizens",
+     "passportPage": "Djiboutian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Djiboutian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Djiboutian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "EGY",
+   "name": "Egypt",
+   "demonym": "Egyptian",
+   "features": [
+    "Egypt"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "EGY",
+     "name": "Egypt passport",
+     "visaPage": "Visa_requirements_for_Egyptian_citizens",
+     "passportPage": "Egyptian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Egyptian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Egyptian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GNQ",
+   "name": "Equatorial Guinea",
+   "demonym": "Equatoguinean",
+   "features": [
+    "Eq. Guinea"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "GNQ",
+     "name": "Equatorial Guinea passport",
+     "visaPage": "Visa_requirements_for_Equatoguinean_citizens",
+     "passportPage": "Equatoguinean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Equatoguinean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Equatoguinean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ERI",
+   "name": "Eritrea",
+   "demonym": "Eritrean",
+   "features": [
+    "Eritrea"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ERI",
+     "name": "Eritrea passport",
+     "visaPage": "Visa_requirements_for_Eritrean_citizens",
+     "passportPage": "Eritrean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Eritrean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Eritrean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SWZ",
+   "name": "Eswatini",
+   "demonym": "Swazi",
+   "features": [
+    "eSwatini"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SWZ",
+     "name": "Eswatini passport",
+     "visaPage": "Visa_requirements_for_Swazi_citizens",
+     "passportPage": "Swazi_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Swazi_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Swazi_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ETH",
+   "name": "Ethiopia",
+   "demonym": "Ethiopian",
+   "features": [
+    "Ethiopia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ETH",
+     "name": "Ethiopia passport",
+     "visaPage": "Visa_requirements_for_Ethiopian_citizens",
+     "passportPage": "Ethiopian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ethiopian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ethiopian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GAB",
+   "name": "Gabon",
+   "demonym": "Gabonese",
+   "features": [
+    "Gabon"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "GAB",
+     "name": "Gabon passport",
+     "visaPage": "Visa_requirements_for_Gabonese_citizens",
+     "passportPage": "Gabonese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Gabonese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Gabonese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GMB",
+   "name": "Gambia",
+   "demonym": "Gambian",
+   "features": [
+    "Gambia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "GMB",
+     "name": "Gambia passport",
+     "visaPage": "Visa_requirements_for_Gambian_citizens",
+     "passportPage": "Gambian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Gambian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Gambian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GHA",
+   "name": "Ghana",
+   "demonym": "Ghanaian",
+   "features": [
+    "Ghana"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "GHA",
+     "name": "Ghana passport",
+     "visaPage": "Visa_requirements_for_Ghanaian_citizens",
+     "passportPage": "Ghanaian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ghanaian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ghanaian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GIN",
+   "name": "Guinea",
+   "demonym": "Guinean",
+   "features": [
+    "Guinea"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "GIN",
+     "name": "Guinea passport",
+     "visaPage": "Visa_requirements_for_Guinean_citizens",
+     "passportPage": "Guinean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Guinean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Guinean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GNB",
+   "name": "Guinea-Bissau",
+   "demonym": "Bissau-Guinean",
+   "features": [
+    "Guinea-Bissau"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "GNB",
+     "name": "Guinea-Bissau passport",
+     "visaPage": "Visa_requirements_for_Bissau-Guinean_citizens",
+     "passportPage": "Bissau-Guinean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bissau-Guinean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bissau-Guinean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KEN",
+   "name": "Kenya",
+   "demonym": "Kenyan",
+   "features": [
+    "Kenya"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "KEN",
+     "name": "Kenya passport",
+     "visaPage": "Visa_requirements_for_Kenyan_citizens",
+     "passportPage": "Kenyan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kenyan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kenyan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LSO",
+   "name": "Lesotho",
+   "demonym": "Lesotho",
+   "features": [
+    "Lesotho"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LSO",
+     "name": "Lesotho passport",
+     "visaPage": "Visa_requirements_for_Lesotho_citizens",
+     "passportPage": "Lesotho_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Lesotho_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Lesotho_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LBR",
+   "name": "Liberia",
+   "demonym": "Liberian",
+   "features": [
+    "Liberia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "LBR",
+     "name": "Liberia passport",
+     "visaPage": "Visa_requirements_for_Liberian_citizens",
+     "passportPage": "Liberian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Liberian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Liberian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LBY",
+   "name": "Libya",
+   "demonym": "Libyan",
+   "features": [
+    "Libya"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LBY",
+     "name": "Libya passport",
+     "visaPage": "Visa_requirements_for_Libyan_citizens",
+     "passportPage": "Libyan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Libyan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Libyan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MDG",
+   "name": "Madagascar",
+   "demonym": "Malagasy",
+   "features": [
+    "Madagascar"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MDG",
+     "name": "Madagascar passport",
+     "visaPage": "Visa_requirements_for_Malagasy_citizens",
+     "passportPage": "Malagasy_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Malagasy_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Malagasy_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MWI",
+   "name": "Malawi",
+   "demonym": "Malawian",
+   "features": [
+    "Malawi"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MWI",
+     "name": "Malawi passport",
+     "visaPage": "Visa_requirements_for_Malawian_citizens",
+     "passportPage": "Malawian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Malawian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Malawian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MLI",
+   "name": "Mali",
+   "demonym": "Malian",
+   "features": [
+    "Mali"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "MLI",
+     "name": "Mali passport",
+     "visaPage": "Visa_requirements_for_Malian_citizens",
+     "passportPage": "Malian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Malian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Malian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MRT",
+   "name": "Mauritania",
+   "demonym": "Mauritanian",
+   "features": [
+    "Mauritania"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MRT",
+     "name": "Mauritania passport",
+     "visaPage": "Visa_requirements_for_Mauritanian_citizens",
+     "passportPage": "Mauritanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mauritanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Mauritanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MUS",
+   "name": "Mauritius",
+   "demonym": "Mauritian",
+   "features": [
+    "Mauritius"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MUS",
+     "name": "Mauritius passport",
+     "visaPage": "Visa_requirements_for_Mauritian_citizens",
+     "passportPage": "Mauritian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mauritian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Mauritian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MAR",
+   "name": "Morocco",
+   "demonym": "Moroccan",
+   "features": [
+    "Morocco"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MAR",
+     "name": "Morocco passport",
+     "visaPage": "Visa_requirements_for_Moroccan_citizens",
+     "passportPage": "Moroccan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Moroccan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Moroccan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MOZ",
+   "name": "Mozambique",
+   "demonym": "Mozambican",
+   "features": [
+    "Mozambique"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MOZ",
+     "name": "Mozambique passport",
+     "visaPage": "Visa_requirements_for_Mozambican_citizens",
+     "passportPage": "Mozambican_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mozambican_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Mozambican_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NAM",
+   "name": "Namibia",
+   "demonym": "Namibian",
+   "features": [
+    "Namibia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "NAM",
+     "name": "Namibia passport",
+     "visaPage": "Visa_requirements_for_Namibian_citizens",
+     "passportPage": "Namibian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Namibian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Namibian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NER",
+   "name": "Niger",
+   "demonym": "Nigerien",
+   "features": [
+    "Niger"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "NER",
+     "name": "Niger passport",
+     "visaPage": "Visa_requirements_for_Nigerien_citizens",
+     "passportPage": "Nigerien_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Nigerien_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Nigerien_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NGA",
+   "name": "Nigeria",
+   "demonym": "Nigerian",
+   "features": [
+    "Nigeria"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "NGA",
+     "name": "Nigeria passport",
+     "visaPage": "Visa_requirements_for_Nigerian_citizens",
+     "passportPage": "Nigerian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Nigerian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Nigerian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "RWA",
+   "name": "Rwanda",
+   "demonym": "Rwandan",
+   "features": [
+    "Rwanda"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "RWA",
+     "name": "Rwanda passport",
+     "visaPage": "Visa_requirements_for_Rwandan_citizens",
+     "passportPage": "Rwandan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Rwandan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Rwandan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "STP",
+   "name": "São Tomé and Príncipe",
+   "demonym": "São Toméan",
+   "features": [
+    "São Tomé and Principe"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "STP",
+     "name": "São Tomé and Príncipe passport",
+     "visaPage": "Visa_requirements_for_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_citizens",
+     "passportPage": "S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SEN",
+   "name": "Senegal",
+   "demonym": "Senegalese",
+   "features": [
+    "Senegal"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "SEN",
+     "name": "Senegal passport",
+     "visaPage": "Visa_requirements_for_Senegalese_citizens",
+     "passportPage": "Senegalese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Senegalese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Senegalese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SYC",
+   "name": "Seychelles",
+   "demonym": "Seychellois",
+   "features": [
+    "Seychelles"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SYC",
+     "name": "Seychelles passport",
+     "visaPage": "Visa_requirements_for_Seychellois_citizens",
+     "passportPage": "Seychellois_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Seychellois_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Seychellois_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SLE",
+   "name": "Sierra Leone",
+   "demonym": "Sierra Leonean",
+   "features": [
+    "Sierra Leone"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "SLE",
+     "name": "Sierra Leone passport",
+     "visaPage": "Visa_requirements_for_Sierra_Leonean_citizens",
+     "passportPage": "Sierra_Leonean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sierra_Leonean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Sierra_Leonean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SOM",
+   "name": "Somalia",
+   "demonym": "Somali",
+   "features": [
+    "Somalia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SOM",
+     "name": "Somalia passport",
+     "visaPage": "Visa_requirements_for_Somali_citizens",
+     "passportPage": "Somali_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Somali_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Somali_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SOL",
+   "name": "Somaliland",
+   "demonym": "Somaliland",
+   "features": [
+    "Somaliland"
+   ],
+   "recognition": "minimal",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SOL",
+     "name": "Somaliland passport",
+     "visaPage": "Visa_requirements_for_Somaliland_citizens",
+     "passportPage": "Somaliland_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Somaliland_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Somaliland_passport"
+    }
+   ],
+   "facts": [
+    "Somaliland has operated as a de facto independent state since 1991; its passport is accepted by a small number of states."
+   ]
+  },
+  {
+   "id": "ZAF",
+   "name": "South Africa",
+   "demonym": "South African",
+   "features": [
+    "South Africa"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ZAF",
+     "name": "South Africa passport",
+     "visaPage": "Visa_requirements_for_South_African_citizens",
+     "passportPage": "South_African_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_South_African_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/South_African_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SSD",
+   "name": "South Sudan",
+   "demonym": "South Sudanese",
+   "features": [
+    "S. Sudan"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "SSD",
+     "name": "South Sudan passport",
+     "visaPage": "Visa_requirements_for_South_Sudanese_citizens",
+     "passportPage": "South_Sudanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_South_Sudanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/South_Sudanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SDN",
+   "name": "Sudan",
+   "demonym": "Sudanese",
+   "features": [
+    "Sudan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SDN",
+     "name": "Sudan passport",
+     "visaPage": "Visa_requirements_for_Sudanese_citizens",
+     "passportPage": "Sudanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sudanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Sudanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TZA",
+   "name": "Tanzania",
+   "demonym": "Tanzanian",
+   "features": [
+    "Tanzania"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "TZA",
+     "name": "Tanzania passport",
+     "visaPage": "Visa_requirements_for_Tanzanian_citizens",
+     "passportPage": "Tanzanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Tanzanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Tanzanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TGO",
+   "name": "Togo",
+   "demonym": "Togolese",
+   "features": [
+    "Togo"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "ECOWAS"
+   ],
+   "documents": [
+    {
+     "id": "TGO",
+     "name": "Togo passport",
+     "visaPage": "Visa_requirements_for_Togolese_citizens",
+     "passportPage": "Togolese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Togolese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Togolese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TUN",
+   "name": "Tunisia",
+   "demonym": "Tunisian",
+   "features": [
+    "Tunisia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TUN",
+     "name": "Tunisia passport",
+     "visaPage": "Visa_requirements_for_Tunisian_citizens",
+     "passportPage": "Tunisian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Tunisian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Tunisian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "UGA",
+   "name": "Uganda",
+   "demonym": "Ugandan",
+   "features": [
+    "Uganda"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "EAC"
+   ],
+   "documents": [
+    {
+     "id": "UGA",
+     "name": "Uganda passport",
+     "visaPage": "Visa_requirements_for_Ugandan_citizens",
+     "passportPage": "Ugandan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ugandan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ugandan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ESH",
+   "name": "Western Sahara",
+   "demonym": "Sahrawi",
+   "features": [
+    "W. Sahara"
+   ],
+   "recognition": "partial",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ESH",
+     "name": "Western Sahara passport",
+     "visaPage": "Visa_requirements_for_Sahrawi_citizens",
+     "passportPage": "Sahrawi_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sahrawi_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Sahrawi_passport"
+    }
+   ],
+   "facts": [
+    "The Sahrawi Arab Democratic Republic is recognised by some states; most of the territory is administered by Morocco."
+   ]
+  },
+  {
+   "id": "ZMB",
+   "name": "Zambia",
+   "demonym": "Zambian",
+   "features": [
+    "Zambia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ZMB",
+     "name": "Zambia passport",
+     "visaPage": "Visa_requirements_for_Zambian_citizens",
+     "passportPage": "Zambian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Zambian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Zambian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ZWE",
+   "name": "Zimbabwe",
+   "demonym": "Zimbabwean",
+   "features": [
+    "Zimbabwe"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ZWE",
+     "name": "Zimbabwe passport",
+     "visaPage": "Visa_requirements_for_Zimbabwean_citizens",
+     "passportPage": "Zimbabwean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Zimbabwean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Zimbabwean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ATG",
+   "name": "Antigua and Barbuda",
+   "demonym": "Antigua and Barbuda",
+   "features": [
+    "Antigua and Barb."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "ATG",
+     "name": "Antigua and Barbuda passport",
+     "visaPage": "Visa_requirements_for_Antigua_and_Barbuda_citizens",
+     "passportPage": "Antigua_and_Barbuda_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Antigua_and_Barbuda_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ARG",
+   "name": "Argentina",
+   "demonym": "Argentine",
+   "features": [
+    "Argentina"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "ARG",
+     "name": "Argentina passport",
+     "visaPage": "Visa_requirements_for_Argentine_citizens",
+     "passportPage": "Argentine_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Argentine_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Argentine_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BHS",
+   "name": "Bahamas",
+   "demonym": "Bahamian",
+   "features": [
+    "Bahamas"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BHS",
+     "name": "Bahamas passport",
+     "visaPage": "Visa_requirements_for_Bahamian_citizens",
+     "passportPage": "Bahamian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bahamian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bahamian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BRB",
+   "name": "Barbados",
+   "demonym": "Barbadian",
+   "features": [
+    "Barbados"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BRB",
+     "name": "Barbados passport",
+     "visaPage": "Visa_requirements_for_Barbadian_citizens",
+     "passportPage": "Barbadian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Barbadian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Barbadian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BLZ",
+   "name": "Belize",
+   "demonym": "Belizean",
+   "features": [
+    "Belize"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BLZ",
+     "name": "Belize passport",
+     "visaPage": "Visa_requirements_for_Belizean_citizens",
+     "passportPage": "Belizean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belizean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Belizean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BOL",
+   "name": "Bolivia",
+   "demonym": "Bolivian",
+   "features": [
+    "Bolivia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "BOL",
+     "name": "Bolivia passport",
+     "visaPage": "Visa_requirements_for_Bolivian_citizens",
+     "passportPage": "Bolivian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bolivian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bolivian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BRA",
+   "name": "Brazil",
+   "demonym": "Brazilian",
+   "features": [
+    "Brazil"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "BRA",
+     "name": "Brazil passport",
+     "visaPage": "Visa_requirements_for_Brazilian_citizens",
+     "passportPage": "Brazilian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Brazilian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Brazilian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CAN",
+   "name": "Canada",
+   "demonym": "Canadian",
+   "features": [
+    "Canada"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CAN",
+     "name": "Canada passport",
+     "visaPage": "Visa_requirements_for_Canadian_citizens",
+     "passportPage": "Canadian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Canadian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Canadian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CHL",
+   "name": "Chile",
+   "demonym": "Chilean",
+   "features": [
+    "Chile"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "CHL",
+     "name": "Chile passport",
+     "visaPage": "Visa_requirements_for_Chilean_citizens",
+     "passportPage": "Chilean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Chilean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Chilean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "COL",
+   "name": "Colombia",
+   "demonym": "Colombian",
+   "features": [
+    "Colombia"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "COL",
+     "name": "Colombia passport",
+     "visaPage": "Visa_requirements_for_Colombian_citizens",
+     "passportPage": "Colombian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Colombian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Colombian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CRI",
+   "name": "Costa Rica",
+   "demonym": "Costa Rican",
+   "features": [
+    "Costa Rica"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CRI",
+     "name": "Costa Rica passport",
+     "visaPage": "Visa_requirements_for_Costa_Rican_citizens",
+     "passportPage": "Costa_Rican_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Costa_Rican_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Costa_Rican_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CUB",
+   "name": "Cuba",
+   "demonym": "Cuban",
+   "features": [
+    "Cuba"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CUB",
+     "name": "Cuba passport",
+     "visaPage": "Visa_requirements_for_Cuban_citizens",
+     "passportPage": "Cuban_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Cuban_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Cuban_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DMA",
+   "name": "Dominica",
+   "demonym": "Dominica",
+   "features": [
+    "Dominica"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "DMA",
+     "name": "Dominica passport",
+     "visaPage": "Visa_requirements_for_Dominica_citizens",
+     "passportPage": "Dominica_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Dominica_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Dominica_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "DOM",
+   "name": "Dominican Republic",
+   "demonym": "Dominican",
+   "features": [
+    "Dominican Rep."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "DOM",
+     "name": "Dominican Republic passport",
+     "visaPage": "Visa_requirements_for_Dominican_Republic_citizens",
+     "passportPage": "Dominican_Republic_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Dominican_Republic_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Dominican_Republic_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "ECU",
+   "name": "Ecuador",
+   "demonym": "Ecuadorian",
+   "features": [
+    "Ecuador"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "ECU",
+     "name": "Ecuador passport",
+     "visaPage": "Visa_requirements_for_Ecuadorian_citizens",
+     "passportPage": "Ecuadorian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ecuadorian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Ecuadorian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SLV",
+   "name": "El Salvador",
+   "demonym": "Salvadoran",
+   "features": [
+    "El Salvador"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "CA4"
+   ],
+   "documents": [
+    {
+     "id": "SLV",
+     "name": "El Salvador passport",
+     "visaPage": "Visa_requirements_for_Salvadoran_citizens",
+     "passportPage": "Salvadoran_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Salvadoran_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Salvadoran_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GRD",
+   "name": "Grenada",
+   "demonym": "Grenadian",
+   "features": [
+    "Grenada"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "GRD",
+     "name": "Grenada passport",
+     "visaPage": "Visa_requirements_for_Grenadian_citizens",
+     "passportPage": "Grenadian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Grenadian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Grenadian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GTM",
+   "name": "Guatemala",
+   "demonym": "Guatemalan",
+   "features": [
+    "Guatemala"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "CA4"
+   ],
+   "documents": [
+    {
+     "id": "GTM",
+     "name": "Guatemala passport",
+     "visaPage": "Visa_requirements_for_Guatemalan_citizens",
+     "passportPage": "Guatemalan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Guatemalan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Guatemalan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "GUY",
+   "name": "Guyana",
+   "demonym": "Guyanese",
+   "features": [
+    "Guyana"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "GUY",
+     "name": "Guyana passport",
+     "visaPage": "Visa_requirements_for_Guyanese_citizens",
+     "passportPage": "Guyanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Guyanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Guyanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "HTI",
+   "name": "Haiti",
+   "demonym": "Haitian",
+   "features": [
+    "Haiti"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "HTI",
+     "name": "Haiti passport",
+     "visaPage": "Visa_requirements_for_Haitian_citizens",
+     "passportPage": "Haitian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Haitian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Haitian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "HND",
+   "name": "Honduras",
+   "demonym": "Honduran",
+   "features": [
+    "Honduras"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "CA4"
+   ],
+   "documents": [
+    {
+     "id": "HND",
+     "name": "Honduras passport",
+     "visaPage": "Visa_requirements_for_Honduran_citizens",
+     "passportPage": "Honduran_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Honduran_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Honduran_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "JAM",
+   "name": "Jamaica",
+   "demonym": "Jamaican",
+   "features": [
+    "Jamaica"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "JAM",
+     "name": "Jamaica passport",
+     "visaPage": "Visa_requirements_for_Jamaican_citizens",
+     "passportPage": "Jamaican_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Jamaican_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Jamaican_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MEX",
+   "name": "Mexico",
+   "demonym": "Mexican",
+   "features": [
+    "Mexico"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MEX",
+     "name": "Mexico passport",
+     "visaPage": "Visa_requirements_for_Mexican_citizens",
+     "passportPage": "Mexican_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mexican_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Mexican_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NIC",
+   "name": "Nicaragua",
+   "demonym": "Nicaraguan",
+   "features": [
+    "Nicaragua"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "CA4"
+   ],
+   "documents": [
+    {
+     "id": "NIC",
+     "name": "Nicaragua passport",
+     "visaPage": "Visa_requirements_for_Nicaraguan_citizens",
+     "passportPage": "Nicaraguan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Nicaraguan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Nicaraguan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PAN",
+   "name": "Panama",
+   "demonym": "Panamanian",
+   "features": [
+    "Panama"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PAN",
+     "name": "Panama passport",
+     "visaPage": "Visa_requirements_for_Panamanian_citizens",
+     "passportPage": "Panamanian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Panamanian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Panamanian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PRY",
+   "name": "Paraguay",
+   "demonym": "Paraguayan",
+   "features": [
+    "Paraguay"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "PRY",
+     "name": "Paraguay passport",
+     "visaPage": "Visa_requirements_for_Paraguayan_citizens",
+     "passportPage": "Paraguayan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Paraguayan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Paraguayan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PER",
+   "name": "Peru",
+   "demonym": "Peruvian",
+   "features": [
+    "Peru"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "PER",
+     "name": "Peru passport",
+     "visaPage": "Visa_requirements_for_Peruvian_citizens",
+     "passportPage": "Peruvian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Peruvian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Peruvian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KNA",
+   "name": "Saint Kitts and Nevis",
+   "demonym": "Saint Kitts and Nevis",
+   "features": [
+    "St. Kitts and Nevis"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KNA",
+     "name": "Saint Kitts and Nevis passport",
+     "visaPage": "Visa_requirements_for_Saint_Kitts_and_Nevis_citizens",
+     "passportPage": "Saint_Kitts_and_Nevis_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Saint_Kitts_and_Nevis_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LCA",
+   "name": "Saint Lucia",
+   "demonym": "Saint Lucian",
+   "features": [
+    "Saint Lucia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LCA",
+     "name": "Saint Lucia passport",
+     "visaPage": "Visa_requirements_for_Saint_Lucian_citizens",
+     "passportPage": "Saint_Lucian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Saint_Lucian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Saint_Lucian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "VCT",
+   "name": "Saint Vincent and the Grenadines",
+   "demonym": "Saint Vincent and the Grenadines",
+   "features": [
+    "St. Vin. and Gren."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "VCT",
+     "name": "Saint Vincent and the Grenadines passport",
+     "visaPage": "Visa_requirements_for_Saint_Vincent_and_the_Grenadines_citizens",
+     "passportPage": "Saint_Vincent_and_the_Grenadines_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Saint_Vincent_and_the_Grenadines_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SUR",
+   "name": "Suriname",
+   "demonym": "Surinamese",
+   "features": [
+    "Suriname"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SUR",
+     "name": "Suriname passport",
+     "visaPage": "Visa_requirements_for_Surinamese_citizens",
+     "passportPage": "Surinamese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Surinamese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Surinamese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TTO",
+   "name": "Trinidad and Tobago",
+   "demonym": "Trinidad and Tobago",
+   "features": [
+    "Trinidad and Tobago"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TTO",
+     "name": "Trinidad and Tobago passport",
+     "visaPage": "Visa_requirements_for_Trinidad_and_Tobago_citizens",
+     "passportPage": "Trinidad_and_Tobago_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Trinidad_and_Tobago_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "USA",
+   "name": "United States",
+   "demonym": "United States",
+   "features": [
+    "United States of America",
+    "Puerto Rico",
+    "Guam",
+    "American Samoa",
+    "U.S. Virgin Is.",
+    "N. Mariana Is."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "USA",
+     "name": "United States passport",
+     "visaPage": "Visa_requirements_for_United_States_citizens",
+     "passportPage": "United_States_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/United_States_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "URY",
+   "name": "Uruguay",
+   "demonym": "Uruguayan",
+   "features": [
+    "Uruguay"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "MERCOSUR"
+   ],
+   "documents": [
+    {
+     "id": "URY",
+     "name": "Uruguay passport",
+     "visaPage": "Visa_requirements_for_Uruguayan_citizens",
+     "passportPage": "Uruguayan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Uruguayan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Uruguayan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "VEN",
+   "name": "Venezuela",
+   "demonym": "Venezuelan",
+   "features": [
+    "Venezuela"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "VEN",
+     "name": "Venezuela passport",
+     "visaPage": "Visa_requirements_for_Venezuelan_citizens",
+     "passportPage": "Venezuelan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Venezuelan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Venezuelan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AFG",
+   "name": "Afghanistan",
+   "demonym": "Afghan",
+   "features": [
+    "Afghanistan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "AFG",
+     "name": "Afghanistan passport",
+     "visaPage": "Visa_requirements_for_Afghan_citizens",
+     "passportPage": "Afghan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Afghan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Afghan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BGD",
+   "name": "Bangladesh",
+   "demonym": "Bangladeshi",
+   "features": [
+    "Bangladesh"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BGD",
+     "name": "Bangladesh passport",
+     "visaPage": "Visa_requirements_for_Bangladeshi_citizens",
+     "passportPage": "Bangladeshi_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bangladeshi_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bangladeshi_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BTN",
+   "name": "Bhutan",
+   "demonym": "Bhutanese",
+   "features": [
+    "Bhutan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BTN",
+     "name": "Bhutan passport",
+     "visaPage": "Visa_requirements_for_Bhutanese_citizens",
+     "passportPage": "Bhutanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bhutanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bhutanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "BRN",
+   "name": "Brunei",
+   "demonym": "Bruneian",
+   "features": [
+    "Brunei"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "BRN",
+     "name": "Brunei passport",
+     "visaPage": "Visa_requirements_for_Bruneian_citizens",
+     "passportPage": "Bruneian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Bruneian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Bruneian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KHM",
+   "name": "Cambodia",
+   "demonym": "Cambodian",
+   "features": [
+    "Cambodia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KHM",
+     "name": "Cambodia passport",
+     "visaPage": "Visa_requirements_for_Cambodian_citizens",
+     "passportPage": "Cambodian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Cambodian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Cambodian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "CHN",
+   "name": "China",
+   "demonym": "Chinese",
+   "features": [
+    "China"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "CHN",
+     "name": "China passport",
+     "visaPage": "Visa_requirements_for_Chinese_citizens",
+     "passportPage": "Chinese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Chinese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Chinese_passport"
+    }
+   ],
+   "facts": [
+    "The People's Republic of China also authorises the Hong Kong and Macao SARs to issue their own passports with separate visa regimes."
+   ]
+  },
+  {
+   "id": "HKG",
+   "name": "Hong Kong",
+   "demonym": "Hong Kong",
+   "features": [
+    "Hong Kong"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "HKG",
+     "name": "Hong Kong passport",
+     "visaPage": "Visa_requirements_for_Chinese_citizens_of_Hong_Kong",
+     "passportPage": "Hong_Kong_Special_Administrative_Region_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Chinese_citizens_of_Hong_Kong",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Hong_Kong_Special_Administrative_Region_passport"
+    }
+   ],
+   "facts": [
+    "The HKSAR passport is issued to Chinese citizens who are permanent residents of Hong Kong and enjoys far broader visa-free access than the ordinary PRC passport."
+   ]
+  },
+  {
+   "id": "MAC",
+   "name": "Macao",
+   "demonym": "Macanese",
+   "features": [
+    "Macao"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MAC",
+     "name": "Macao passport",
+     "visaPage": "Visa_requirements_for_Chinese_citizens_of_Macau",
+     "passportPage": "Macao_Special_Administrative_Region_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Chinese_citizens_of_Macau",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Macao_Special_Administrative_Region_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TWN",
+   "name": "Taiwan",
+   "demonym": "Taiwanese",
+   "features": [
+    "Taiwan"
+   ],
+   "recognition": "partial",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TWN",
+     "name": "Taiwan passport",
+     "visaPage": "Visa_requirements_for_Taiwanese_citizens",
+     "passportPage": "Taiwan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Taiwanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Taiwan_passport"
+    }
+   ],
+   "facts": [
+    "The Republic of China (Taiwan) passport is widely accepted for travel even by states that do not maintain diplomatic relations with Taipei."
+   ]
+  },
+  {
+   "id": "GEO",
+   "name": "Georgia",
+   "demonym": "Georgian",
+   "features": [
+    "Georgia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "GEO",
+     "name": "Georgia passport",
+     "visaPage": "Visa_requirements_for_citizens_of_Georgia",
+     "passportPage": "Georgian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_citizens_of_Georgia",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Georgian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "IND",
+   "name": "India",
+   "demonym": "Indian",
+   "features": [
+    "India"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "IND",
+     "name": "India passport",
+     "visaPage": "Visa_requirements_for_Indian_citizens",
+     "passportPage": "Indian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Indian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "IDN",
+   "name": "Indonesia",
+   "demonym": "Indonesian",
+   "features": [
+    "Indonesia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "IDN",
+     "name": "Indonesia passport",
+     "visaPage": "Visa_requirements_for_Indonesian_citizens",
+     "passportPage": "Indonesian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indonesian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Indonesian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "JPN",
+   "name": "Japan",
+   "demonym": "Japanese",
+   "features": [
+    "Japan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "JPN",
+     "name": "Japan passport",
+     "visaPage": "Visa_requirements_for_Japanese_citizens",
+     "passportPage": "Japanese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Japanese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Japanese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KAZ",
+   "name": "Kazakhstan",
+   "demonym": "Kazakhstani",
+   "features": [
+    "Kazakhstan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KAZ",
+     "name": "Kazakhstan passport",
+     "visaPage": "Visa_requirements_for_Kazakhstani_citizens",
+     "passportPage": "Kazakhstani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kazakhstani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kazakhstani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PRK",
+   "name": "North Korea",
+   "demonym": "North Korean",
+   "features": [
+    "North Korea"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PRK",
+     "name": "North Korea passport",
+     "visaPage": "Visa_requirements_for_North_Korean_citizens",
+     "passportPage": "North_Korean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_North_Korean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/North_Korean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KOR",
+   "name": "South Korea",
+   "demonym": "South Korean",
+   "features": [
+    "South Korea"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KOR",
+     "name": "South Korea passport",
+     "visaPage": "Visa_requirements_for_South_Korean_citizens",
+     "passportPage": "South_Korean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_South_Korean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/South_Korean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KGZ",
+   "name": "Kyrgyzstan",
+   "demonym": "Kyrgyzstani",
+   "features": [
+    "Kyrgyzstan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KGZ",
+     "name": "Kyrgyzstan passport",
+     "visaPage": "Visa_requirements_for_Kyrgyzstani_citizens",
+     "passportPage": "Kyrgyzstani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kyrgyzstani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kyrgyzstani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "LAO",
+   "name": "Laos",
+   "demonym": "Lao",
+   "features": [
+    "Laos"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LAO",
+     "name": "Laos passport",
+     "visaPage": "Visa_requirements_for_Lao_citizens",
+     "passportPage": "Lao_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Lao_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Lao_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MYS",
+   "name": "Malaysia",
+   "demonym": "Malaysian",
+   "features": [
+    "Malaysia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MYS",
+     "name": "Malaysia passport",
+     "visaPage": "Visa_requirements_for_Malaysian_citizens",
+     "passportPage": "Malaysian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Malaysian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Malaysian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MDV",
+   "name": "Maldives",
+   "demonym": "Maldivian",
+   "features": [
+    "Maldives"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MDV",
+     "name": "Maldives passport",
+     "visaPage": "Visa_requirements_for_Maldivian_citizens",
+     "passportPage": "Maldivian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Maldivian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Maldivian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MNG",
+   "name": "Mongolia",
+   "demonym": "Mongolian",
+   "features": [
+    "Mongolia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MNG",
+     "name": "Mongolia passport",
+     "visaPage": "Visa_requirements_for_Mongolian_citizens",
+     "passportPage": "Mongolian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Mongolian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Mongolian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MMR",
+   "name": "Myanmar",
+   "demonym": "Burmese",
+   "features": [
+    "Myanmar"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MMR",
+     "name": "Myanmar passport",
+     "visaPage": "Visa_requirements_for_Burmese_citizens",
+     "passportPage": "Burmese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Burmese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Burmese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NPL",
+   "name": "Nepal",
+   "demonym": "Nepalese",
+   "features": [
+    "Nepal"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "NPL",
+     "name": "Nepal passport",
+     "visaPage": "Visa_requirements_for_Nepalese_citizens",
+     "passportPage": "Nepalese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Nepalese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Nepalese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PAK",
+   "name": "Pakistan",
+   "demonym": "Pakistani",
+   "features": [
+    "Pakistan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PAK",
+     "name": "Pakistan passport",
+     "visaPage": "Visa_requirements_for_Pakistani_citizens",
+     "passportPage": "Pakistani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Pakistani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Pakistani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PHL",
+   "name": "Philippines",
+   "demonym": "Filipino",
+   "features": [
+    "Philippines"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PHL",
+     "name": "Philippines passport",
+     "visaPage": "Visa_requirements_for_Philippine_citizens",
+     "passportPage": "Philippine_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Philippine_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Philippine_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SGP",
+   "name": "Singapore",
+   "demonym": "Singaporean",
+   "features": [
+    "Singapore"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SGP",
+     "name": "Singapore passport",
+     "visaPage": "Visa_requirements_for_Singaporean_citizens",
+     "passportPage": "Singaporean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Singaporean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Singaporean_passport"
+    }
+   ],
+   "facts": [
+    "The Singapore passport regularly tops global passport-power rankings."
+   ]
+  },
+  {
+   "id": "LKA",
+   "name": "Sri Lanka",
+   "demonym": "Sri Lankan",
+   "features": [
+    "Sri Lanka"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "LKA",
+     "name": "Sri Lanka passport",
+     "visaPage": "Visa_requirements_for_Sri_Lankan_citizens",
+     "passportPage": "Sri_Lankan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sri_Lankan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Sri_Lankan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TJK",
+   "name": "Tajikistan",
+   "demonym": "Tajikistani",
+   "features": [
+    "Tajikistan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TJK",
+     "name": "Tajikistan passport",
+     "visaPage": "Visa_requirements_for_Tajikistani_citizens",
+     "passportPage": "Tajikistani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Tajikistani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Tajikistani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "THA",
+   "name": "Thailand",
+   "demonym": "Thai",
+   "features": [
+    "Thailand"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "THA",
+     "name": "Thailand passport",
+     "visaPage": "Visa_requirements_for_Thai_citizens",
+     "passportPage": "Thai_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Thai_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Thai_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TLS",
+   "name": "Timor-Leste",
+   "demonym": "East Timorese",
+   "features": [
+    "Timor-Leste"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TLS",
+     "name": "Timor-Leste passport",
+     "visaPage": "Visa_requirements_for_East_Timorese_citizens",
+     "passportPage": "East_Timorese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_East_Timorese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/East_Timorese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TKM",
+   "name": "Turkmenistan",
+   "demonym": "Turkmen",
+   "features": [
+    "Turkmenistan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TKM",
+     "name": "Turkmenistan passport",
+     "visaPage": "Visa_requirements_for_Turkmen_citizens",
+     "passportPage": "Turkmen_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Turkmen_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Turkmen_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "UZB",
+   "name": "Uzbekistan",
+   "demonym": "Uzbekistani",
+   "features": [
+    "Uzbekistan"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "UZB",
+     "name": "Uzbekistan passport",
+     "visaPage": "Visa_requirements_for_Uzbekistani_citizens",
+     "passportPage": "Uzbekistani_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Uzbekistani_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Uzbekistani_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "VNM",
+   "name": "Vietnam",
+   "demonym": "Vietnamese",
+   "features": [
+    "Vietnam"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "VNM",
+     "name": "Vietnam passport",
+     "visaPage": "Visa_requirements_for_Vietnamese_citizens",
+     "passportPage": "Vietnamese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Vietnamese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Vietnamese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "AUS",
+   "name": "Australia",
+   "demonym": "Australian",
+   "features": [
+    "Australia",
+    "Norfolk Island",
+    "Ashmore and Cartier Is.",
+    "Indian Ocean Ter."
+   ],
+   "recognition": "full",
+   "blocs": [
+    "TTTA"
+   ],
+   "documents": [
+    {
+     "id": "AUS",
+     "name": "Australia passport",
+     "visaPage": "Visa_requirements_for_Australian_citizens",
+     "passportPage": "Australian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Australian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Australian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "FJI",
+   "name": "Fiji",
+   "demonym": "Fijian",
+   "features": [
+    "Fiji"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "FJI",
+     "name": "Fiji passport",
+     "visaPage": "Visa_requirements_for_Fijian_citizens",
+     "passportPage": "Fijian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Fijian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Fijian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "KIR",
+   "name": "Kiribati",
+   "demonym": "Kiribati",
+   "features": [
+    "Kiribati"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "KIR",
+     "name": "Kiribati passport",
+     "visaPage": "Visa_requirements_for_Kiribati_citizens",
+     "passportPage": "Kiribati_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Kiribati_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Kiribati_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "MHL",
+   "name": "Marshall Islands",
+   "demonym": "Marshallese",
+   "features": [
+    "Marshall Is."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "MHL",
+     "name": "Marshall Islands passport",
+     "visaPage": "Visa_requirements_for_Marshallese_citizens",
+     "passportPage": "Marshallese_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Marshallese_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Marshallese_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "FSM",
+   "name": "Micronesia",
+   "demonym": "Micronesian",
+   "features": [
+    "Micronesia"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "FSM",
+     "name": "Micronesia passport",
+     "visaPage": "Visa_requirements_for_Micronesian_citizens",
+     "passportPage": "Micronesian_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Micronesian_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Micronesian_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NRU",
+   "name": "Nauru",
+   "demonym": "Nauruan",
+   "features": [
+    "Nauru"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "NRU",
+     "name": "Nauru passport",
+     "visaPage": "Visa_requirements_for_Nauruan_citizens",
+     "passportPage": "Nauruan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Nauruan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Nauruan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NZL",
+   "name": "New Zealand",
+   "demonym": "New Zealand",
+   "features": [
+    "New Zealand",
+    "Cook Is.",
+    "Niue"
+   ],
+   "recognition": "full",
+   "blocs": [
+    "TTTA"
+   ],
+   "documents": [
+    {
+     "id": "NZL",
+     "name": "New Zealand passport",
+     "visaPage": "Visa_requirements_for_New_Zealand_citizens",
+     "passportPage": "New_Zealand_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_New_Zealand_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/New_Zealand_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PLW",
+   "name": "Palau",
+   "demonym": "Palauan",
+   "features": [
+    "Palau"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PLW",
+     "name": "Palau passport",
+     "visaPage": "Visa_requirements_for_Palauan_citizens",
+     "passportPage": "Palauan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Palauan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Palauan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "PNG",
+   "name": "Papua New Guinea",
+   "demonym": "Papua New Guinean",
+   "features": [
+    "Papua New Guinea"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "PNG",
+     "name": "Papua New Guinea passport",
+     "visaPage": "Visa_requirements_for_Papua_New_Guinean_citizens",
+     "passportPage": "Papua_New_Guinean_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Papua_New_Guinean_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "WSM",
+   "name": "Samoa",
+   "demonym": "Samoan",
+   "features": [
+    "Samoa"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "WSM",
+     "name": "Samoa passport",
+     "visaPage": "Visa_requirements_for_Samoan_citizens",
+     "passportPage": "Samoan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Samoan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Samoan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "SLB",
+   "name": "Solomon Islands",
+   "demonym": "Solomon Islands",
+   "features": [
+    "Solomon Is."
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SLB",
+     "name": "Solomon Islands passport",
+     "visaPage": "Visa_requirements_for_Solomon_Islands_citizens",
+     "passportPage": "Solomon_Islands_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Solomon_Islands_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Solomon_Islands_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TON",
+   "name": "Tonga",
+   "demonym": "Tongan",
+   "features": [
+    "Tonga"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TON",
+     "name": "Tonga passport",
+     "visaPage": "Visa_requirements_for_Tongan_citizens",
+     "passportPage": "Tongan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Tongan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Tongan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "TUV",
+   "name": "Tuvalu",
+   "demonym": "Tuvaluan",
+   "features": [
+    "Tuvalu"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "TUV",
+     "name": "Tuvalu passport",
+     "visaPage": "Visa_requirements_for_Tuvaluan_citizens",
+     "passportPage": "Tuvaluan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Tuvaluan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Tuvaluan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "VUT",
+   "name": "Vanuatu",
+   "demonym": "Vanuatuan",
+   "features": [
+    "Vanuatu"
+   ],
+   "recognition": "full",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "VUT",
+     "name": "Vanuatu passport",
+     "visaPage": "Visa_requirements_for_Vanuatuan_citizens",
+     "passportPage": "Vanuatuan_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Vanuatuan_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Vanuatuan_passport"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "id": "NCY",
+   "name": "Northern Cyprus",
+   "demonym": "Northern Cypriot",
+   "features": [
+    "N. Cyprus"
+   ],
+   "recognition": "minimal",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "NCY",
+     "name": "Northern Cyprus passport",
+     "visaPage": "Visa_requirements_for_Northern_Cypriot_citizens",
+     "passportPage": "Northern_Cypriot_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Northern_Cypriot_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Northern_Cypriot_passport"
+    }
+   ],
+   "facts": [
+    "The Turkish Republic of Northern Cyprus is recognised only by Turkey; a handful of other states accept its passport as a travel document."
+   ]
+  },
+  {
+   "id": "SMOM",
+   "name": "Sovereign Military Order of Malta",
+   "demonym": "Sovereign Military Order of Malta",
+   "features": [],
+   "recognition": "partial",
+   "blocs": [],
+   "documents": [
+    {
+     "id": "SMOM",
+     "name": "Sovereign Military Order of Malta passport",
+     "visaPage": "Visa_requirements_for_Sovereign_Military_Order_of_Malta_citizens",
+     "passportPage": "Sovereign_Military_Order_of_Malta_passport",
+     "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Sovereign_Military_Order_of_Malta_citizens",
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Sovereign_Military_Order_of_Malta_passport"
+    }
+   ],
+   "facts": [
+    "The Sovereign Military Order of Malta holds no territory yet maintains diplomatic relations with over 100 states and issues one of the rarest passports in the world — only a few hundred are in circulation, mostly diplomatic."
+   ]
+  }
+ ]
+}

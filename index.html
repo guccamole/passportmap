@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>PassportMap — the power of every travel document</title>
+    <meta name="description" content="Click any country to see what its passport grants everywhere else: visa-free access, visas on arrival, freedom of movement and more." />
+  </head>
+  <body>
+    <header id="topbar">
+      <button id="panel-toggle" aria-label="Toggle passport list">☰</button>
+      <h1>Passport<span>Map</span></h1>
+      <nav class="view-toggle" aria-label="View mode">
+        <button class="view-btn active" data-view="power" title="Click a country to see where its passport gets in">Passport power</button>
+        <button class="view-btn" data-view="entry" title="Click a country to see which passports get in">Who gets in</button>
+      </nav>
+      <button id="reset-zoom" title="Reset zoom">⤾</button>
+    </header>
+    <div id="demo-banner" hidden></div>
+    <div id="app">
+      <aside id="panel-left">
+        <input id="search" type="search" placeholder="Search passports… (e.g. Order of Malta)" autocomplete="off" />
+        <div id="entity-list"></div>
+      </aside>
+      <main id="map-wrap">
+        <div id="map"></div>
+        <div id="legend"></div>
+        <div id="tooltip" hidden></div>
+        <div id="loading">Loading the world…</div>
+      </main>
+      <aside id="sidebar" aria-live="polite"></aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

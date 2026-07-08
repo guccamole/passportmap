@@ -1,0 +1,9 @@
+{
+  "document": "ISR-teudat-maavar",
+  "note": "Manual corrections applied on top of scraped/seeded data by scraper/build-matrix.mjs. Wikipedia's 'Visa requirements for Israeli citizens' page describes the Darkon; Teudat Ma'avar differences are curated here.",
+  "access": {
+    "DEU": "vr||Schengen visa waiver applies to the Darkon, not the Teudat Ma'avar",
+    "USA": "vr",
+    "GBR": "vr"
+  }
+}
