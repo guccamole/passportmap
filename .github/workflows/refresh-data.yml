@@ -1,0 +1,49 @@
+# Monthly automated data refresh — answers "do I need a Mac mini for this?"
+# with "no": a scheduled GitHub Action (or any machine with cron + Node)
+# re-scrapes Wikipedia, rebuilds the matrix, and commits the diff. The whole
+# run costs ~1–2 hours of free Actions minutes a month.
+name: Refresh visa data
+
+on:
+  schedule:
+    - cron: '23 4 3 * *' # 04:23 UTC on the 3rd of every month
+  workflow_dispatch:
+    inputs:
+      documents:
+        description: 'Optional space-separated doc ids to scrape (empty = all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Scrape Wikipedia visa tables (randomized delays)
+        run: node scraper/scrape.mjs ${{ inputs.documents }}
+        env:
+          SCRAPE_DELAY: '16'
+          SCRAPE_MAX_AGE_DAYS: '20'
+      - name: Fetch new passport cover images
+        run: node scraper/scrape-covers.mjs
+        continue-on-error: true
+      - name: Rebuild data files
+        run: npm run build:data
+      - name: Build site
+        run: npm run build
+      - name: Commit refreshed data
+        run: |
+          git config user.name 'passportmap-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data public/data public/covers
+          git diff --cached --quiet && echo 'No data changes this month.' && exit 0
+          git commit -m "data: monthly Wikipedia refresh $(date -u +%Y-%m)"
+          git push

@@ -1,0 +1,43 @@
+{
+  "name": "passportmap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Explore the power of every passport and travel document on a world map.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guccamole/passportmap.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "build:map": "node tools/build-map.mjs",
+    "build:entities": "node tools/build-entities.mjs",
+    "build:matrix": "node scraper/build-matrix.mjs",
+    "build:data": "npm run build:map && npm run build:entities && npm run build:matrix",
+    "seed": "node scraper/seed-demo-data.mjs && npm run build:data",
+    "scrape": "node scraper/scrape.mjs",
+    "scrape:covers": "node scraper/scrape-covers.mjs",
+    "serve": "node server/analytics-server.mjs",
+    "stats": "node server/stats.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "d3-geo": "^3.1.1",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/geojson": "^7946.0.16",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}
