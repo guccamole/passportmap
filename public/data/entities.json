@@ -350,7 +350,8 @@
      "visaPage": "Visa_requirements_for_Croatian_citizens",
      "passportPage": "Croatian_passport",
      "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Croatian_citizens",
-     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Croatian_passport"
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Croatian_passport",
+     "cover": "HRV.jpg"
     }
    ],
    "facts": []
@@ -2911,7 +2912,8 @@
      "visaPage": "Visa_requirements_for_Argentine_citizens",
      "passportPage": "Argentine_passport",
      "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Argentine_citizens",
-     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Argentine_passport"
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Argentine_passport",
+     "cover": "ARG.jpg"
     }
    ],
    "facts": []
@@ -3612,7 +3614,8 @@
      "visaPage": "Visa_requirements_for_Uruguayan_citizens",
      "passportPage": "Uruguayan_passport",
      "wikipediaVisaUrl": "https://en.wikipedia.org/wiki/Visa_requirements_for_Uruguayan_citizens",
-     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Uruguayan_passport"
+     "wikipediaPassportUrl": "https://en.wikipedia.org/wiki/Uruguayan_passport",
+     "cover": "URY.png"
     }
    ],
    "facts": []
